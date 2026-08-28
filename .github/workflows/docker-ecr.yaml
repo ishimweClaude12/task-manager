@@ -9,6 +9,7 @@ permissions:
 
 jobs:
   build-and-push:
+    environment: dev
     runs-on: ubuntu-latest
 
     steps:
